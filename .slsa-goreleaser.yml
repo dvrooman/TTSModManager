@@ -13,14 +13,14 @@ flags:
 
 # The OS to compile for. `GOOS` env variable will be set to this value.
 goos:
-- "darwin"
-- "linux"
-- "windows"
+- darwin
+- linux
+- windows
 
 # The architecture to compile for. `GOARCH` env variable will be set to this value.
 goarch:
-  - "amd64"
-  - "arm64"
+  - amd64
+  - arm64
 
 universal_binaries:
   - replace: true
